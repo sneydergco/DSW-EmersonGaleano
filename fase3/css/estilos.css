@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*RESET para REMS --- 62.5%= 10px de 16px*/
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	line-height: 2;
+}
+
+
+/*Globales*/
+
+img{
+	max-width: 100%;
+
+}
+
+.di{
+	display: flex; 
+	text-align: center; 
+	height: 200px; 
+	background-color: #399aff;
+}
+
+.divhead{
+	width: 30%;
+}
+
+.divhead2{
+	width: 40%;
+	color: #fff;
+	margin:  auto;
+	font-size: 15px ;
+}
+
+.img{
+	
+  border-radius:0px;  
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url(../img/unad.png);
+  background-size: cover;
+}
+
+.img img{
+  width: 100%;
+
+}
+
+.img2{
+	
+  border-radius:0px;  
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url(../img/diseno.jpg);
+  background-size: cover;
+  text-align: left;
+}
+
+.img2 img{
+  width: 100%;
+
+}
+
+
+
+*{margin:0;padding:0;box-sizing:border-box;}  
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:50px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#399aff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;      top:30px;
+
+      left:0px;
+}
+
+.menuunad{
+	width: 100%;
+	background-color: black; 
+	text-align: center;
+}
+
+.cont{
+	display: flex;
+	text-align: center; 
+}
+
+iframe{
+	height: 600px;
+}
+
+.der{
+	background-color: #717070;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	color: #E7E7E7;
+
+}
+ .izq{
+ 	width: 20%;
+ 	height: 600px;
+ }
+
+ main{
+ 	text-align: center;
+ }
+
+ #imgp{
+ 	width: 35%;
+ }
+
+
+ #paprin{
+ 	width: 90%;
+ 	text-align: center; 	
+ 	margin: auto;
+ }
+
+ em{
+ 	color:#E7E6E6;
+ }
+
+footer{
+	height: 120px;
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+}
